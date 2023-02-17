@@ -8,7 +8,7 @@ import {BsDot} from "react-icons/bs";
 const SideMenu = () => {
 
     return (
-        <div className="w-14 sm:w-16 xl:w-[15rem] p-2 bg-[#0e0e10] h-fit">
+        <div className="fixed w-14 sm:w-16 xl:w-[15rem] h-screen p-2 bg-[#0e0e10] overflow-y-scroll scrollbar-hidden scrollbar-hide">
             <div>
                 <p className="hidden xl:flex uppercase font-bold text-[0.8rem] pb-4">
                     Recommended Channels
