@@ -3,7 +3,7 @@ import { useSession, signIn, signOut } from "next-auth/react";
 import {FaGithub} from "react-icons/fa"
 import Image from 'next/image';
 
-const account = () => {
+const Account = () => {
   const { data: session } = useSession();
   console.log(session);
   if (session) {
@@ -27,4 +27,4 @@ const account = () => {
   );
 }
 
-export default account
+export default Account
